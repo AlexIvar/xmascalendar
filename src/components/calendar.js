@@ -141,14 +141,14 @@ let items = [
 export const Calendar = () => {
     return (
         <div>
-            <Typography gutterBottom variant="h4" component="div">
-            Mafesita's xmas calendar
+            <Typography gutterBottom variant="h4" component="div" sx={{fontWeight:"bold", paddingTop:"20px", color: "#424242"}}>
+            Mafesita's Xmas calendar
             </Typography>
            
-            <Grid container spacing={{ xs: 1, sm: 2, md: 2, lg: 5, xl: 3 }} columns={{ xs: 10, sm: 10, md: 10, lg: 10, xl: 4 }}  sx={{padding: 5}}>
+            <Grid container spacing={{ xs: 2, sm: 4, md: 5, lg: 5, xl: 3 }} columns={{ xs: 6, sm: 8, md: 10, lg: 10, xl: 4 }}  sx={{padding: 5}}>
                 {items.map((item) => {
                     return (
-                        <Grid item xs={4} md={4} lg={2} xl={4} key={item.id}>
+                        <Grid item xs={2} sm={2} md={2} lg={2} xl={4} key={item.id}>
                             <CalendarItem numberid={item.id} cardText={item.text} cardColor={item.color} cardTitle={item.title} cardBody={item.body} cardBody2={item.body2} cardBody3={item.body3} cardBody4={item.body4}/>
                         </Grid>
                     )

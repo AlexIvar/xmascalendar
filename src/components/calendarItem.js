@@ -87,7 +87,7 @@ export const CalendarItem = (props) => {
     <Item onClick={() => handleClickOpen(props)} elevation={3}>
    
     <Card sx={{background: props.cardColor}}>
-    <Typography gutterBottom variant="h4" component="div" sx={{padding: 2}}>
+    <Typography gutterBottom variant="h4" component="div" sx={{padding: 2, color: "#1a237e"}}>
           {props.numberid}
         </Typography>
       <CardContent sx={{textAlign: "center"}}>
