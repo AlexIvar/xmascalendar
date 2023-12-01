@@ -24,6 +24,12 @@ let items = [
         "id": 2,
         "text": "I love youu",
         "color": moment().date() >= 2 ?  "#2979ff" : "#1c54b2",
+        "title": "A baltchanted story",
+        "body":  "Once upon a time there was a balta called Baltasita. The balta was very baltafull and baltilly. ",
+        "body2": "One day the balta was on baltacupid and met another balta named Baltasito. Baltasita decided to text Baltasito and see if they would hit it off.",
+        "body3": "Baltasito saw Baltasitas message and decided to reply because the balta was very baltafull. ",
+        "body4": "The baltas talked all night about all kinds of things and realised they where both really good at a biltish accent.",
+        "body5": "Baltasita express how baltchanted to meet Baltasito by playing one of Baltastswift's hits Baltchanted. Ever since they have been enjoying every moment spent together!"
     },
     {
         "id": 3,
@@ -149,7 +155,7 @@ export const Calendar = () => {
                 {items.map((item) => {
                     return (
                         <Grid item xs={2} sm={2} md={2} lg={2} xl={4} key={item.id}>
-                            <CalendarItem numberid={item.id} cardText={item.text} cardColor={item.color} cardTitle={item.title} cardBody={item.body} cardBody2={item.body2} cardBody3={item.body3} cardBody4={item.body4}/>
+                            <CalendarItem numberid={item.id} cardText={item.text} cardColor={item.color} cardTitle={item.title} cardBody={item.body} cardBody2={item.body2} cardBody3={item.body3} cardBody4={item.body4} cardBody5={item.body5}/>
                         </Grid>
                     )
                 })}

@@ -151,6 +151,9 @@ export const CalendarItem = (props) => {
          <Typography gutterBottom>
          {props.cardBody4}
          </Typography>
+         <Typography gutterBottom>
+         {props.cardBody5}
+         </Typography>
        </DialogContent>
        <DialogActions>
        </DialogActions>
