@@ -142,7 +142,7 @@ export const Calendar = () => {
     return (
         <div>
             <Typography gutterBottom variant="h4" component="div" sx={{fontWeight:"bold", paddingTop:"20px", color: "#424242"}}>
-            Mafesita's Xmas calendar
+            Mafesita's Christmas Countdown
             </Typography>
            
             <Grid container spacing={{ xs: 2, sm: 4, md: 5, lg: 5, xl: 3 }} columns={{ xs: 6, sm: 8, md: 10, lg: 10, xl: 4 }}  sx={{padding: 5}}>
