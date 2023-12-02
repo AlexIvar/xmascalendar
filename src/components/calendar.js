@@ -35,6 +35,8 @@ let items = [
         "id": 3,
         "text": "We are family",
         "color": moment().date() >= 3 ?  "#2979ff" : "#1c54b2",
+        "body":  "This is a certificate that entitles Mafesita to have 10 freshly baked cookies next time we meet! But save the wrappers for me!! With warm wishes, Alexito",
+        "title": "Cookie certificate",
     },
     {
         "id": 4,

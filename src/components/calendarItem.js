@@ -39,6 +39,9 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import moment from"moment";
 import Grid from '@mui/material/Grid';
+//import '../src/styles/calendarItem.css'
+import './calenderItem.css'
+import { height } from '@mui/system';
 
 const Item2 = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -85,17 +88,16 @@ export const CalendarItem = (props) => {
   return (
     <>
     <Item onClick={() => handleClickOpen(props)} elevation={3}>
-   
-    <Card sx={{background: props.cardColor}}>
+    <Card sx={{background: props.cardColor, overflow: "hidden"}}>
     <Typography gutterBottom variant="h4" component="div" sx={{padding: 2, color: "#1a237e"}}>
           {props.numberid}
         </Typography>
-      <CardContent sx={{textAlign: "center"}}>
+      <CardContent sx={{textAlign: "center", overflow: "hidden"}}>
        {props.numberid === 1 ? <FavoriteIcon sx={{color: "white", width: 40, height: 50}}/> : 
         props.numberid === 2 ? <ForestIcon sx={{color: "white",width: 40, height: 50}}/> :
-        props.numberid === 3 ? <NightlightIcon sx={{color: "white",width: 40, height: 50}}/> :
+        props.numberid === 3 ? <CookieIcon sx={{color: "white",width: 40, height: 50}}/> :
         props.numberid === 4 ? <StarIcon sx={{color: "white",width: 40, height: 50}}/> :
-        props.numberid === 5 ? <CookieIcon sx={{color: "white",width: 40, height: 50}}/> :
+        props.numberid === 5 ? <NightlightIcon sx={{color: "white",width: 40, height: 50}}/> :
         props.numberid === 6 ? <CelebrationIcon sx={{color: "white",width: 40, height: 50}}/> :
         props.numberid === 7 ? <AcUnitIcon sx={{color: "white",width: 40, height: 50}}/> :
         props.numberid === 8 ? <CakeIcon sx={{color: "white",width: 40, height: 50}}/> :
@@ -138,7 +140,8 @@ export const CalendarItem = (props) => {
        >
          <CloseIcon />
        </IconButton>
-       <DialogContent dividers>
+       <DialogContent sx={{height: "100%", overflow: "hidden", ...(props.numberid === 3 && { display: "flex", justifyContent: "center", alignItems: "center"})}} dividers>
+       
          <Typography gutterBottom>
          {props.cardBody}
          </Typography>
@@ -154,6 +157,7 @@ export const CalendarItem = (props) => {
          <Typography gutterBottom>
          {props.cardBody5}
          </Typography>
+         {props.numberid === 3 &&  <CookieIcon className='my-element' sx={{color: "#5d4037", width: 200, height: 300}}/>}
        </DialogContent>
        <DialogActions>
        </DialogActions>
