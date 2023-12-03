@@ -140,7 +140,7 @@ export const CalendarItem = (props) => {
        >
          <CloseIcon />
        </IconButton>
-       <DialogContent sx={{height: "100%", overflow: "hidden", ...(props.numberid === 3 && { display: "flex", justifyContent: "center", alignItems: "center"})}} dividers>
+       <DialogContent sx={{height: "100%", overflow: "hidden", ...((props.numberid === 3 || props.numberid === 4) && { display: "flex", justifyContent: "center", alignItems: "center"})}} dividers>
        
          <Typography gutterBottom>
          {props.cardBody}
@@ -158,6 +158,7 @@ export const CalendarItem = (props) => {
          {props.cardBody5}
          </Typography>
          {props.numberid === 3 &&  <CookieIcon className='my-element' sx={{color: "#5d4037", width: 200, height: 300}}/>}
+         {props.numberid === 4 &&  <StarIcon className='my-element' sx={{color: "#fbc02d", width: 200, height: 300}}/>}
        </DialogContent>
        <DialogActions>
        </DialogActions>

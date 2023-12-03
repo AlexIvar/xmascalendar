@@ -42,6 +42,9 @@ let items = [
         "id": 4,
         "text": "I am so glad to have met you",
         "color": moment().date() >= 4 ?  "#2979ff" : "#1c54b2",
+        "title": "Hiii!",
+        "body": "Thanks for making tonight so special. I had a fantastic time and ouuuways enjoy spending time with you <3 Love you! ~ Baltasito"
+        
     },
     {
         "id": 5,
