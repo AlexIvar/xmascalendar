@@ -40,6 +40,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import moment from"moment";
 import Grid from '@mui/material/Grid';
 //import '../src/styles/calendarItem.css'
+import logo from './words.jpg'
 import './calenderItem.css'
 import { height } from '@mui/system';
 
@@ -48,7 +49,8 @@ const Item2 = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(2),
   textAlign: 'center',
-  color: theme.palette.text.secondary,
+  color: theme.palette.
+  text.secondary,
 }));
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
@@ -159,6 +161,7 @@ export const CalendarItem = (props) => {
          </Typography>
          {props.numberid === 3 &&  <CookieIcon className='my-element' sx={{color: "#5d4037", width: 200, height: 300}}/>}
          {props.numberid === 4 &&  <StarIcon className='my-element' sx={{color: "#fbc02d", width: 200, height: 300}}/>}
+         {props.numberid === 5 && <img src={logo} alt="Logo" />}
        </DialogContent>
        <DialogActions>
        </DialogActions>

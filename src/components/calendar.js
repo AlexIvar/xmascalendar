@@ -50,6 +50,8 @@ let items = [
         "id": 5,
         "text": "Happy holidays",
         "color": moment().date() >= 5 ?  "#2979ff" : "#1c54b2",
+        "title": "Mafesita is...",
+        "body": "In the word search there are 12 words that describe Mafesita!"
     },
     {
          "id": 6,
