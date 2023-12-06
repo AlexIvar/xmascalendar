@@ -63,27 +63,40 @@ let items = [
         "id": 7,
         "text": "Happy holidays",
         "color": moment().date() >= 7 ?  "#2979ff" : "#1c54b2",
+        "title": "Dear Mafesita!",
+        "body": "You're incredibly strong, even when facing tough times. Your courage and resilience inspire me every day. Remember, you're loved and supported, and I'm here for you, no matter what!",
+        "body2": " With love,",
+        "body3": "Alexito"
     },
     {
          "id": 8,
          "text": "Happy holidays",
          "color": moment().date() >= 8 ?  "#2979ff" : "#1c54b2",
+        "title":"Solve the riddle",
+        "body":"I'm the beginning of eternity, the end of time and space. I'm the beginning of every end and the end of every place. What am I?"
     },
         {
         "id": 9,
         "text": "Happy holidays",
         "color": moment().date() >= 9 ?  "#2979ff" : "#1c54b2",
+        "title": "Hiiii!",
+        "body": "Just wanted to drop a note to say that you're on my mind and in my heart today (as you are every day). Sending you a bunch of love and warm thoughts. Can't wait to see you soon.",
+        "body2": "Thinking of you ouuuuways,",
+        "body3": "Baltasito"
     },
     {
          "id": 10,
          "text": "Happy holidays",
          "color": moment().date() >= 10 ?  "#2979ff" : "#1c54b2",
+         "title": "Baltasitaaaa!",
+         "body": "I just wanted to take a moment to remind you how incredibly special you are to me. "
     },
     ,
         {
         "id": 11,
         "text": "Happy holidays",
         "color": moment().date() >= 11 ?  "#2979ff" : "#1c54b2",
+        "title": ""
     },
     {
         "id": 12,
