@@ -96,7 +96,8 @@ let items = [
         "id": 11,
         "text": "Happy holidays",
         "color": moment().date() >= 11 ?  "#2979ff" : "#1c54b2",
-        "title": ""
+        "title": "Hey beautifull Baltasita!",
+         "body": "Each day spent with you is a day perfectly spent. I missed you so much and I am so happy to see you again. Love youuuuu<3"
     },
     {
         "id": 12,
