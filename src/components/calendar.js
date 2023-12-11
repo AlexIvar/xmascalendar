@@ -103,11 +103,15 @@ let items = [
         "id": 12,
         "text": "Happy holidays",
         "color": moment().date() >= 12 ?  "#2979ff" : "#1c54b2",
+        "title": "Me with you!",
+         "body": "Every time I see my Baltasita, I'm reminded of how stunning you are, inside and out. Your beauty captivates me every single day. ~Baltasito"
     },
     {
         "id": 13,
         "text": "Happy holidays",
         "color": moment().date() >= 13 ?  "#2979ff" : "#1c54b2",
+        "title": "Me with you!",
+        "body":  ""
     },
     {
         "id": 14,

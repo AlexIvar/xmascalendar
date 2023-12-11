@@ -42,6 +42,7 @@ import Grid from '@mui/material/Grid';
 //import '../src/styles/calendarItem.css'
 import logo from './words.jpg'
 import logo2 from './baltasito.png'
+import logo3 from './baltasito2.png'
 import './calenderItem.css'
 import { height } from '@mui/system';
 
@@ -164,6 +165,7 @@ export const CalendarItem = (props) => {
          {props.numberid === 4 &&  <StarIcon className='my-element' sx={{color: "#fbc02d", width: 200, height: 300}}/>}
          {props.numberid === 5 && <img src={logo} alt="Logo" />}
          {props.numberid === 6 && <img height={500} width={300} src={logo2} alt="Logo" />}
+         {props.numberid === 12 && <img src={logo3} height={600} width={500} alt="Logo" />}
        </DialogContent>
        <DialogActions>
        </DialogActions>
