@@ -110,8 +110,8 @@ let items = [
         "id": 13,
         "text": "Happy holidays",
         "color": moment().date() >= 13 ?  "#2979ff" : "#1c54b2",
-        "title": "Me with you!",
-        "body":  ""
+        "title": "My sweetheart <3",
+        "body":  "Your sweetness is like sunshine on a rainy day, always there to lift my spirits and make everything better. I'm so lucky to have you in my life Baltasita! ~Baltasito"
     },
     {
         "id": 14,
