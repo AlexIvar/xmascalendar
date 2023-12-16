@@ -80,7 +80,7 @@ export const CalendarItem = (props) => {
     const [open, setOpen] = React.useState(false);
 
     const handleClickOpen = (props) => {
-        if(moment().date() >= props.numberid){
+        if(moment().date() >= props.numberid || props.numberid === 17){
             setOpen(true);
           }
     };

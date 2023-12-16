@@ -117,21 +117,29 @@ let items = [
         "id": 14,
         "text": "Happy holidays",
         "color": moment().date() >= 14 ?  "#2979ff" : "#1c54b2",
+        "title": "Love youuu!",
+        "body":  "Hey Baltasita, if you were a vegetable, you'd be a cute-cumber! If you where a fruit you would be a balta. 😄 But let's be real, you're sweeter than any candy in the store. Can't wait to share some laughs together soon!"
     },
     {
         "id": 15,
         "text": "Happy holidays",
         "color": moment().date() >= 15 ?  "#2979ff" : "#1c54b2",
+        "title": "🥑🥑🥑",
+        "body": "Baltasita, you're my favorite person to be weird with. Thanks for laughing at my jokes, even the ones that only I find funny. Let's keep being our wonderfully weird selves together!"
     },
     {
         "id": 16,
         "text": "Happy holidays",
         "color": moment().date() >= 16 ?  "#2979ff" : "#1c54b2",
+        "title": "❤️❤️❤️",
+        "body": "Hey darling, you're like WiFi. You've got me connected, and I can't imagine a day without you boosting my signal."
     },
     {
         "id": 17,
         "text": "Happy holidays",
         "color": moment().date() >= 17 ?  "#2979ff" : "#1c54b2",
+        "title": "🥑❤️",
+        "body": "Hey Baltasita, if laughter were currency, you'd be my fortune. Thanks for being my personal comedian and making every moment hilarious. "
     },
     {
         "id": 18,
