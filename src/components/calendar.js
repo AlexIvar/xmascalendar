@@ -145,6 +145,8 @@ let items = [
         "id": 18,
         "text": "Happy holidays",
         "color": moment().date() >= 18 ?  "#2979ff" : "#1c54b2",
+        "title": "I love you my Baltasita!!!!",
+        "body": "Hey Baltasita, they say a smile is contagious, but with your humor, laughter becomes an epidemic"
     },
     {
         "id": 19,
