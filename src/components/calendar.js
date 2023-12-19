@@ -158,6 +158,11 @@ let items = [
         "id": 20,
         "text": "Happy holidays",
         "color": moment().date() >= 20 ?  "#2979ff" : "#1c54b2",
+        "title": "😍😍😍",
+        "body": "Hey beautifull Baltasita! You bring so much joy into my life, and I'm grateful for every moment together. Love you so much <3",
+        "body2": "Thinking of you ouuuuways,",
+        "body4": "https://open.spotify.com/track/0EcQcdcbQeVJn9fknj44Be?si=1d4348716b454fcd",
+        "body3": "Baltasito"
     },
     {
         "id": 21,
