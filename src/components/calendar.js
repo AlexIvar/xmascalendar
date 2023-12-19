@@ -152,6 +152,7 @@ let items = [
         "id": 19,
         "text": "Happy holidays",
         "color": moment().date() >= 19 ?  "#2979ff" : "#1c54b2",
+        "title":"I can't wait to cuddle with you my sweet Baltasita!"
     },
     {
         "id": 20,

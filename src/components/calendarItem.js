@@ -43,6 +43,7 @@ import Grid from '@mui/material/Grid';
 import logo from './words.jpg'
 import logo2 from './baltasito.png'
 import logo3 from './baltasito2.png'
+import logo4 from './avocado.png'
 import './calenderItem.css'
 import { height } from '@mui/system';
 
@@ -166,6 +167,7 @@ export const CalendarItem = (props) => {
          {props.numberid === 5 && <img src={logo} alt="Logo" />}
          {props.numberid === 6 && <img height={500} width={300} src={logo2} alt="Logo" />}
          {props.numberid === 12 && <img src={logo3} height={600} width={500} alt="Logo" />}
+         {props.numberid === 19 && <img src={logo4} height={600} width={500} alt="Logo" />}
        </DialogContent>
        <DialogActions>
        </DialogActions>
