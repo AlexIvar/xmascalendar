@@ -168,6 +168,8 @@ let items = [
         "id": 21,
         "text": "Happy holidays",
         "color": moment().date() >= 21 ?  "#2979ff" : "#1c54b2",
+        "title": "Heyyyyy",
+        "body": "Hey Baltasita, I just wanted to remind you of how incredibly kind, sweet, and thoughtful you are. Your heart shines through in everything you do, from the little gestures that light up my day to the way you always put others before yourself. Your kindness is like a guiding light in my life, and I feel so lucky to have someone as caring as you by my side. Thank you for being the wonderful person you are. With lots of love, Baltasito.",
     },
     {
         "id": 22,
