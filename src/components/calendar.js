@@ -175,6 +175,8 @@ let items = [
         "id": 22,
         "text": "Happy holidays",
         "color": moment().date() >= 22 ?  "#2979ff" : "#1c54b2",
+        "title": "😍😍😍", 
+        "body": "Every day of ours feels just like the very first day because I cannot help falling in love with you over and over again. I love you!"
     },
     {
         "id": 23,
