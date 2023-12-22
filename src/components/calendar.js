@@ -182,6 +182,8 @@ let items = [
         "id": 23,
         "text": "Happy holidays",
         "color": moment().date() >= 23 ?  "#2979ff" : "#1c54b2",
+        "title": "Heyyyyyyy",
+        "body": "Hey love, just wanted to let you know how much I cherish our moments together, especially when we're lost in the rhythm of our favorite songs. Your company makes every melody more beautiful. I love listening to music with you—it's like the soundtrack to our story. 💕🎶"
     },
     {
         "id": 24,
