@@ -189,6 +189,8 @@ let items = [
         "id": 24,
         "text": "Happy holidays",
         "color": moment().date() >= 24 ?  "#2979ff" : "#1c54b2",
+        "title": "",
+        "body": "Hey gorgeous, as amazing as our journey has been, it's just the beginning. I'm thrilled thinking about all the adventures, laughter, and love that lie ahead of us. With you by my side, every step feels like a new and incredible chapter unfolding. Here's to a lifetime of beginnings together. Marry christmas by Baltasita 💫❤️"
     },
   ]
 
